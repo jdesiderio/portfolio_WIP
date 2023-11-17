@@ -562,10 +562,12 @@ footer .icon-contact a:hover {
 }
 .about .about__skills {
   grid-area: 2/2;
+  width: 90%;
 }
 @media screen and (max-width: 1024px) {
   .about .about__skills {
     grid-area: 2/2/3/3;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
