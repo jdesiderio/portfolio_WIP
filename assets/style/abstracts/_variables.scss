@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Montserrat', sans-serif !default;
+$title-font: 'Limelight'; 
+
+/// colors
+/// @type Color
+$primary-color: rgb(45, 40, 79);
+$secundary-color: rgb(231, 234, 237);
+$secundary-color-clear: rgba(231, 234, 237, 0.42);
+$secundary-color-darker: rgb(225, 230, 235);
+$tertiary-color: rgb(162, 195, 205);
+$warning-color: rgb(176, 66, 74);
+
+/// greys
+/// @type Color
+// $primary-color: #3B3B3B;
+// $secundary-color: rgb(235, 235, 235);
+// $secundary-color-clear: rgba(235, 235, 235, 0.42);;
+// $secundary-color-darker: #E5E5E5;
+// $tertiary-color: #B8B8B8;
+// $warning-color: #797979;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 768px,
+  'medium': 1024px,
+  'large': 1440px,
+) !default;

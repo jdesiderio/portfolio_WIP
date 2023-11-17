@@ -1,0 +1,90 @@
+header {
+  .header__company {
+    max-height: 200px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    a {
+      font-size: larger;
+      font-weight: 700;
+      text-decoration: none;
+      color: $primary-color;
+      &:hover {
+        text-decoration: underline;
+        color: $warning-color;
+      }
+    }
+  }
+  .header__portfolio {
+    z-index: 3;
+    position: relative;
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 50px;
+      width: 100%;
+      @media screen and (max-width: map-get($breakpoints, 'small')) {
+        justify-content: flex-start;
+        padding-right: 0;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin: 0;
+        @media screen and (max-width: map-get($breakpoints, 'small')) {
+          padding-left: 0;
+          width: 100%;
+        }
+        li {
+          flex-grow: 1;
+          text-align: center;
+          a {
+            color: $secundary-color;
+            background-color: $primary-color;
+            text-decoration: none;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            margin: 0 20px;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+            opacity: 0; 
+            transform: translateY(-20px);
+            transition: opacity 500ms, transform 500ms;
+            @media screen and (max-width: map-get($breakpoints, 'small')) {
+              writing-mode: horizontal-tb;
+              margin: 0;
+            }
+            &:hover {
+              color: $tertiary-color;
+              box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.header__portfolio a {
+  animation: fadeIn 500ms both;
+}
+
+.header__portfolio li:nth-child(1) a {
+  animation-delay: 900ms;
+}
+
+.header__portfolio li:nth-child(2) a {
+  animation-delay: 1300ms; /* Ajoutez un délai pour le deuxième lien */
+}
+
+.header__portfolio li:nth-child(3) a {
+  animation-delay: 1700ms; /* Ajoutez un délai pour le troisième lien */
+}

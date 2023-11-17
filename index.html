@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janyce Desiderio - Intégrateur web</title>
+  <meta name="description" content="Portfolio de Janyce Desiderio, Intégratrice web">
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Work+Sans&family=Limelight&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1487001c73.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="header__company">
+      <img src="assets/img/logo.png" alt="logo MJV">
+      <a href="#">ACCUEIL</a>
+    </div>
+    <div class="header__portfolio">
+      <h1>Janyce Desiderio | Intégratrice Web</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact" id="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="animate-main">
+    <section id="about" class="element-padding" role="region" aria-label="À propos">
+      <h2>À propos</h2>
+      <div class="about">
+        <div class="about__img">
+          <img src="" alt="portrait JD">
+        </div>
+        <div class="about__txt">
+          <p>Je termine actuellement une formation de développement front-end, armée d'un doctorat en études latines et d'une solide expérience en humanités numériques. Mon parcours atypique m'a propulsée dans le monde de la programmation. En tant que gérante d'une entreprise en pleine croissance, je travaille à l'élaboration d'une gamme d'applications web notamment destinées au monde portuaire.</p>
+        </div>
+        <div class="about__skills">
+          <h3>Mes compétences</h3>
+          <div class="skillset">
+            <div>
+              <div class="html bubble" >
+                <i class="fa-brands fa-html5 fa-2xl"></i>
+              </div>
+              <p>HTML5</p>
+            </div>
+            <div>
+              <div class="css bubble" >
+                <i class="fa-brands fa-css3-alt fa-2xl"></i>
+              </div>
+              <p>CSS3</p>
+            </div>
+            <div>
+              <div class="sass bubble">
+                <i class="fa-brands fa-sass fa-2xl"></i>
+              </div>
+              <p>Sass</p>
+            </div>
+            <div>
+              <div class="javascript bubble">
+                <i class="fa-brands fa-square-js fa-2xl"></i>
+              </div>
+              <p>Javascript</p>
+            </div>
+            <div>
+              <div class="react bubble">
+                <i class="fa-brands fa-react fa-2xl"></i>
+              </div>
+              <p>React</p>
+            </div>
+            <div>
+              <div class="seo bubble">
+                <p>SEO</p>
+              </div>
+              <p>Référencement</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="element-padding" role="region" aria-label="Portfolio">
+      <h2>Portfolio</h2>
+      <div class="card-container">        
+      </div>
+    </section>
+    <section id="contact" class="element-padding" role="region" aria-label="Contact">
+      <h2>Contact</h2>
+      <h3>Vous avez un projet ? Discutons-en !</h3>
+      <div class="contact-container">
+        <div class="contact-form">
+          <form action="#" method="post">
+                <label for="name">Nom</label>
+                <input type="text" name="name" id="name" required aria-required="true">
+                <label for="firstname">Prénom</label>
+                <input type="text" name="firstname" id="firstname" required aria-required="true">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required aria-required="true">
+                <span id="email-error" class="error-message"></span>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" required aria-required="true"></textarea>
+              <input class="form__btn anim" type="submit" value="Envoyer">
+              <span id="form-error" class="error-message"></span>
+          </form>
+        </div>
+        <div class="contact-deco contact-deco-visible">
+          <div class="skyscraper"></div>
+          <div class="skyscraper"></div>
+          <div class="skyscraper"></div>
+          <div class="skyscraper"></div>
+          <div class="skyscraper"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+      <div class="icon-contact">
+        <a href="mailto:janyce@mjv.desi" target="_blank"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+        <a href="https://www.linkedin.com/in/janyce-desiderio/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://github.com/jdesiderio" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+      </div>
+      <p>© 2023 Janyce Desiderio, Tous droits réservés.</p>
+      <p>Ce site ne collecte aucune donnée.</p>
+      
+    <!-- <div>  
+      <i class="fa-brands fa-react"></i>
+      <i class="fa-brands fa-square-js"></i>
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-sass"></i>
+    </div> -->
+  </footer>
+  <script src="assets/js/cards.js"></script>
+  <script src="assets/js/form.js"></script>
+  <script src="assets/js/deco.js"></script>
+</body>
+</html>

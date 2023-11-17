@@ -1,0 +1,95 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $secundary-color-clear;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid $secundary-color;
+  min-height: 430px;
+  max-height: 430px;
+  color: $primary-color;
+  overflow: hidden;
+  @media screen and (max-width: map-get($breakpoints, 'medium')) {
+    max-height: 4500px;
+  }
+  &.expanded {
+    max-height: 1000px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    transition: all 500ms ease;
+    &.small {
+      height: 200px;
+    }
+    &.bigger {
+      height: 400px;
+    }
+  }
+
+  > p {
+    margin-bottom: 10px;
+    padding: 0 25px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .icons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    max-width: 100px;
+    margin: 10px;
+    .icon {
+      color: $primary-color;
+    }
+  }
+
+  .details {
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 500ms ease-in-out;
+    overflow: hidden;
+    display: none;
+    padding: 10px 50px;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &.show {
+      display: flex;
+      transform: scaleY(1);
+    }
+
+    .details-links {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 15px;
+      padding: 10px 0;
+      border-top: solid 2px $tertiary-color;
+      border-bottom: solid 2px $tertiary-color;
+      a {
+        color: $primary-color;
+        &:hover {
+          color: $warning-color;
+        }
+      }
+    }
+  }
+
+  .expand-link {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    align-self: center;
+    background-color: $secundary-color-darker;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+}

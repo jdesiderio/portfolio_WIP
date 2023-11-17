@@ -1,0 +1,101 @@
+#contact {
+  margin-bottom: -120px;
+  @media screen and (max-width: map-get($breakpoints, 'small')) {
+    margin-bottom: 0;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-right: 20px;
+    @media screen and (max-width: map-get($breakpoints, 'small')) {
+      justify-content: center;  
+      padding-right: 0;
+    }
+    .contact-form {
+      width: 100%; /* Ajustement de la largeur */
+      max-width: 600px; /* Limitation de la largeur maximale */
+      z-index: 4;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 30px; /* Ajout du padding */
+
+        label {
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-top: 10px; 
+        }
+
+        input, textarea {
+          border: 3px solid $tertiary-color;
+          border-radius: 10px;
+          padding: 10px; 
+          width: 100%;
+        }
+
+        .form__btn {
+          width: 150px;
+          margin-top: 30px;
+          background-color: $tertiary-color;
+          color: $primary-color;
+          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+          font-weight: 700;
+          text-transform: uppercase;
+          align-self: center;
+          cursor: pointer;
+        }
+
+        .error-message {
+          color: $warning-color;
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.contact-deco {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+  padding-right: 50px;
+  align-items: flex-end;
+  margin-bottom: -100px;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1500ms, transform 1500ms;
+  @media screen and (max-width: map-get($breakpoints, 'medium')) { 
+    display: none;
+  }
+  .skyscraper {
+    flex: 1;
+    height: 200px;
+    width: 70px;
+    background-color: $tertiary-color;
+    background: linear-gradient(0deg, $tertiary-color 0%, $secundary-color-darker 98%);
+    margin: 0 10px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .skyscraper:nth-child(2) {
+    height: 440px;
+  }
+
+  .skyscraper:nth-child(3) {
+    height: 160px;
+  }
+
+  .skyscraper:nth-child(4) {
+    height: 360px;
+  }
+
+  .skyscraper:nth-child(5) {
+    height: 500px;
+  }
+}

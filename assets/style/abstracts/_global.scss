@@ -1,0 +1,109 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass styles.
+// -----------------------------------------------------------------------------
+
+// Importation des polices Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: $text-font-stack, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $secundary-color;
+}
+
+main {
+  display: block;
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: slideInMain 2s forwards;
+}
+
+section {
+  position: relative;
+  z-index: 2;
+  top: -120px;
+  @media screen and (max-width: map-get($breakpoints, 'small')) {
+    top: 0;
+  }
+} 
+
+// titres
+h1 {
+  color: $secundary-color;
+  background-color: $primary-color;
+  text-transform: uppercase;
+  padding: 30px 60px;
+  font-size: 2em;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  box-shadow: 1px 8px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: slideInTitle 1800ms both;
+  @media screen and (max-width: map-get($breakpoints, 'medium')) {
+    font-size: 1.5em;
+  }
+  @media screen and (max-width: map-get($breakpoints, 'small')) {
+    font-size: 1em;
+    white-space: normal; 
+    overflow: visible; 
+    width: auto; 
+    padding: 30px;
+    animation: fadeInTitle 1800ms both;
+  }
+}
+
+h2 {
+  position: relative;
+  color: $primary-color;
+  text-transform: uppercase;
+  font-size: 4em;
+  margin-top: 0;
+  padding-top: 50px;
+  @media screen and (max-width: map-get($breakpoints, 'medium')) {
+    font-size: 3em;
+  }
+  @media screen and (max-width: map-get($breakpoints, 'small')) {
+    text-align: center;  
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 21px 0 10px 0;
+  color: $primary-color;
+  @media screen and (max-width: map-get($breakpoints, 'small')) {
+    text-align: center;  
+  }
+}
+
+.element-padding {
+  padding-left: 60px;
+  padding-right: 60px;
+  @media screen and (max-width: map-get($breakpoints, 'medium')) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media screen and (max-width: map-get($breakpoints, 'small')) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+// Liens et textes
+p {
+  color: $primary-color;
+  margin: 0;
+}
+
+a:hover {
+  color: $warning-color;
+}

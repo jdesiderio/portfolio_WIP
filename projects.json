@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "assets/img/image1.jpg",
+    "alt": "alt img",
+    "title": "Projet 1",
+    "subtitle": "Description du projet 1",
+    "description": "Je termine actuellement une formation de développement front-end, armée d'un doctorat en études latines et d'une solide expérience en humanités numériques. Mon parcours atypique m'a propulsée dans le monde de la programmation. En tant que gérante d'une entreprise en pleine croissance, je travaille à l'élaboration d'une gamme d'applications web notamment destinées au monde portuaire.",
+    "icons": ["fa-square-js", "fa-html5", "fa-react"],
+    "github": "lien",
+    "site": "lien"
+  },
+  {
+    "id": 2,
+    "imageUrl": "assets/img/kasa.png",
+    "alt": "Page d'accueil du site de Kasa",
+    "title": "Site Kasa",
+    "subtitle": "Développement d'un site de location en React (Projet OpenClassrooms)",
+    "description": "",
+    "icons": ["fa-square-js", "fa-react", "fa-sass"],
+    "github": "https://github.com/jdesiderio/kasa",
+    "site": null
+  },
+  {
+    "id": 3,
+    "imageUrl": "assets/img/724events.png",
+    "alt": "Page d'accueil du site d'une agence événementielle",
+    "title": "Site 724Events",
+    "subtitle": "Débugage du site vitrine d'une agence événementielle (Projet OpenClassrooms)",
+    "description": "",
+    "icons": ["fa-square-js", "fa-react"],
+    "github": "https://github.com/jdesiderio/724events",
+    "site": null
+  },
+  {
+    "id": 4,
+    "imageUrl": "assets/img/sophiebluel.png",
+    "alt": "page d'accueil du portfolio Sophie Bluel",
+    "title": "Portfolio de Sophie Bluel",
+    "subtitle": "Front-end du site portfolio d'une architecte d'intérieur (Projet OpenClassooms)",
+    "description": "Développement de : <br>- la page de présentation des travaux de l'architecte ; <br>- la page de connexion de l'administrateur du site ; <br>- la modale permettant de supprimer et de charger de nouveaux médias. <br>À partir d'un back-end et d'une API fournis. <br>Apprentissage du JavaScript et des méthodes d'authentification.",
+    "icons": ["fa-square-js", "fa-html5", "fa-css3-alt"],
+    "github": "https://github.com/jdesiderio/sophiebluel",
+    "site": null
+  },
+  {
+    "id": 5,
+    "imageUrl": "assets/img/ninacarducci.png",
+    "alt": "page d'accueil du portfolio Nina Carducci",
+    "title": "Portfolio de Nina Carducci",
+    "subtitle": "Performance, accessibilité, SEO (Projet OpenClassooms)",
+    "description": "Audit Lighthouse et amélioration du site portfolio d'une photographe : <br>- Amélioration des performances (css, images, refactorisation) <br>- correction du code pour améliorer l'accessibilité (Wave, aria). <br>- Amélioration du référencement du site (balises meta, web sémantique) <br>Apprentissage des méthodes d'améliorations de sites web au niveau des performances, de l'accessibilité et du SEO.",
+    "icons": ["fa-square-js", "fa-html5", "fa-css3-alt"],
+    "github": "https://github.com/jdesiderio/ninacarducci",
+    "site": "https://jdesiderio.github.io/ninacarducci"
+  }
+]
