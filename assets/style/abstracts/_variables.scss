@@ -29,6 +29,7 @@ $warning-color: rgb(176, 66, 74);
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
 $breakpoints: (
+  'x-small': 300px,
   'small': 768px,
   'medium': 1024px,
   'large': 1440px,

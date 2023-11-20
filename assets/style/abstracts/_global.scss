@@ -73,6 +73,9 @@ h2 {
   @media screen and (max-width: map-get($breakpoints, 'small')) {
     text-align: center;  
   }
+  @media screen and (max-width: map-get($breakpoints, 'x-small')) {
+    font-size: 2em;
+  }
 }
 
 h3 {

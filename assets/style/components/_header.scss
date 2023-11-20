@@ -62,6 +62,9 @@ header {
               writing-mode: horizontal-tb;
               margin: 0;
             }
+            @media screen and (max-width: map-get($breakpoints, 'x-small')) {
+              font-size: 0.7em;
+            }
             &:hover {
               color: $tertiary-color;
               box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);

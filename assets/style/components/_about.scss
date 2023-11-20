@@ -42,7 +42,7 @@
     @media screen and (max-width: map-get($breakpoints, 'small')) {
       grid-area: 1 / 1 / 2 / 2;
       width: 100%;
-      padding: 0 0 10px 30px;
+      padding: 0 30px 10px 30px;
     }
   }
   .about__skills {
