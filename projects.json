@@ -5,7 +5,14 @@
     "alt": "Page d'accueil du site Argent Bank",
     "title": "Site Argent Bank",
     "subtitle": "Implémentation du front-end d'une application bancaire avec React (Projet OpenClassrooms)",
-    "description": "- Développement d'une application web complète et responsive avec React, à partir du design fourni.<br>- Intégration de Redux pour la gestion du state de l'application.<br>- Implémentation des fonctionnalités clés : accès à la page d'accueil, connexion et déconnexion des utilisateurs, consultation des informations de profil après connexion, et modification du pseudo par l'utilisateur.<br>- Application des principes de Green Code.<br>- Conception et documentation des routes API pour la gestion des transactions : visualisation des transactions mensuelles et des détails des transactions, et modification des informations de transaction.",
+    "description": [
+      "Développement d'une application web complète et responsive avec React, à partir du design fourni :",
+      "- Intégration de Redux pour la gestion du state de l'application.",
+      "- Implémentation des fonctionnalités clés : accès à la page d'accueil, connexion et déconnexion des utilisateurs, consultation des informations de profil après connexion, et modification du pseudo par l'utilisateur.",
+      "- Application des principes de Green Code.",
+      "- Conception et documentation des routes API pour la gestion des transactions : visualisation des transactions mensuelles et des détails des transactions, et modification des informations de transaction.",
+      "Apprentissage de Redux."
+    ],
     "tools": "React - Redux - API - JavaScript - HTML5 - Sass",
     "icons": ["fa-react", "fa-square-js", "fa-html5", "fa-sass"],
     "github": "lien",
@@ -17,7 +24,13 @@
     "alt": "Page d'accueil du site de Kasa",
     "title": "Site Kasa",
     "subtitle": "Développement d'un site de location en React (Projet OpenClassrooms)",
-    "description": "- Lancement et développement d'une plateforme web pour Kasa, en utilisant React, avec une refonte complète de l'ancien site à partir des maquettes fournies.<br>- Choix de Create React App comme technologie de bundling.<br>- Conception des composants React et des routes avec React Router, en se basant sur des maquettes Figma responsives.<br>- Fonctionnalités clés développées : composant Gallery (gestion du défilement des images avec logique de boucle, et masquage des boutons de navigation si une seule image est présente) ; composant Collapsible (implémentation de la logique pour ouvrir et fermer les Collapses).",
+    "description": [
+      "Développement d'une plateforme web pour Kasa, en utilisant React, avec une refonte complète de l'ancien site à partir des maquettes fournies :",
+      "- Choix de Create React App comme technologie de bundling.",
+      "- Conception des composants React et des routes avec React Router, en se basant sur des maquettes Figma responsives.",
+      "- Fonctionnalités clés développées : composant Gallery (gestion du défilement des images avec logique de boucle, et masquage des boutons de navigation si une seule image est présente) ; composant Collapsible (implémentation de la logique pour ouvrir et fermer les Collapses).",
+      "Apprentissage de React."
+    ],
     "tools": "React - JavaScript - HTML5 - Sass",
     "icons": ["fa-react", "fa-square-js", "fa-html5", "fa-sass"],
     "github": "https://github.com/jdesiderio/kasa",
@@ -29,7 +42,15 @@
     "alt": "Page d'accueil du site d'une agence événementielle",
     "title": "Site 724Events",
     "subtitle": "Débugage du site vitrine d'une agence événementielle (Projet OpenClassrooms)",
-    "description": "Correction de bugs pour améliorer l'expérience utilisateur sur un site vitrine one-page pour l'agence évènementielle 724events.<br>- Correction de l'affichage des mois dans l'ensemble des composants.<br>- Modification du carrousel pour afficher les événements par date en ordre décroissant, au lieu de l'ordre aléatoire initial. <br>- Réparation du filtre de la section 'Nos réalisations' pour assurer un affichage correct des réalisations.<br>- Correction du formulaire pour que le message de confirmation s'affiche après envoi.<br>- Création d'un cahier de recette pour confirmer la fiabilité du site et son adéquation avec les besoins de 724events.",
+    "description": [
+      "Correction de bugs pour améliorer l'expérience utilisateur sur un site vitrine one-page pour l'agence évènementielle 724events :",
+      "- Correction de l'affichage des mois dans l'ensemble des composants.",
+      "- Modification du carrousel pour afficher les événements par date en ordre décroissant, au lieu de l'ordre aléatoire initial.",
+      "- Réparation du filtre de la section 'Nos réalisations' pour assurer un affichage correct des réalisations.",
+      "- Correction du formulaire pour que le message de confirmation s'affiche après envoi.",
+      "- Création d'un cahier de recette pour confirmer la fiabilité du site et son adéquation avec les besoins de 724events.",
+      "Apprentissage des outils de débugage et des tests."
+    ],
     "tools": "React - JavaScript - HTML5 - Sass",
     "icons": ["fa-react", "fa-square-js"],
     "github": "https://github.com/jdesiderio/724events",
@@ -41,7 +62,13 @@
     "alt": "page d'accueil du portfolio Sophie Bluel",
     "title": "Portfolio de Sophie Bluel",
     "subtitle": "Front-end du site portfolio d'une architecte d'intérieur (Projet OpenClassooms)",
-    "description": "Développement de : <br>- La page de présentation des travaux de l'architecte ; <br>- La page de connexion de l'administrateur du site ; <br>- La modale permettant de supprimer et de charger de nouveaux médias. <br>À partir d'un back-end et d'une API fournis. <br>Apprentissage du JavaScript et des méthodes d'authentification.",
+    "description": [
+      "À partir d'un back-end et d'une API fournis :",
+      "- Développement de la page de présentation des travaux de l'architecte.",
+      "- Développement de la page de connexion de l'administrateur du site.",
+      "- Conception de la modale permettant de supprimer et de charger de nouveaux médias.",
+      "Apprentissage du JavaScript et des méthodes d'authentification (JWT)."
+    ],
     "tools": "JavaScript - HTML5 - CSS3",
     "icons": ["fa-square-js", "fa-html5", "fa-css3-alt"],
     "github": "https://github.com/jdesiderio/sophiebluel",
@@ -53,7 +80,13 @@
     "alt": "page d'accueil du portfolio Nina Carducci",
     "title": "Portfolio de Nina Carducci",
     "subtitle": "Performance, accessibilité, SEO (Projet OpenClassooms)",
-    "description": "Audit Lighthouse et amélioration du site portfolio d'une photographe : <br>- Amélioration des performances (css, images, refactorisation) <br>- Correction du code pour améliorer l'accessibilité (Wave, aria). <br>- Amélioration du référencement du site (balises meta, web sémantique) <br>Apprentissage des méthodes d'améliorations de sites web au niveau des performances, de l'accessibilité et du SEO.",
+    "description": [
+      "Audit Lighthouse et amélioration du site portfolio d'une photographe :",
+      "- Amélioration des performances (css, images, refactorisation).",
+      "- Correction du code pour améliorer l'accessibilité (Wave, aria).",
+      "- Amélioration du référencement du site (balises meta, web sémantique).",
+      "Apprentissage des méthodes d'améliorations de sites web au niveau des performances, de l'accessibilité et du SEO."
+    ],
     "tools": "SEO (Lighthouse, Wave) - HTML5 - CSS3 - JavaScript",
     "icons": ["fa-html5", "fa-css3-alt", "fa-square-js"],
     "github": "https://github.com/jdesiderio/ninacarducci",

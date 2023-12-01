@@ -47,14 +47,29 @@ async function createProjectCards() {
 
       const details = document.createElement('div');
       details.className = 'details';
-      details.innerHTML = `
-        <p class="tools">${project.tools}</p>
-        <p>${project.description}</p>
-        <div class="details-links">
+
+      const descriptionList = document.createElement('ul');
+      project.description.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.textContent = item;
+        descriptionList.appendChild(listItem);
+      });
+      
+      const tools = document.createElement('p');
+      tools.className = 'tools';
+      tools.textContent = project.tools;
+
+      const detailsLinks = document.createElement('div');
+      detailsLinks.className = 'details-links';
+      detailsLinks.innerHTML = `
         <a href="${project.github}" target="_blank"><i class="fa-brands fa-github"></i> Voir le code</a>
         <a href="${project.site}" target="_blank">Voir le site <i class="fa-solid fa-eye"></i></a>
-        </div>
       `;
+
+      // Assemblage de la section des détails
+      details.appendChild(tools);
+      details.appendChild(descriptionList);
+      details.appendChild(detailsLinks);
 
       const expandLink = document.createElement('div');
       expandLink.className = 'expand-link';
