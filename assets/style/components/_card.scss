@@ -64,7 +64,11 @@
       display: flex;
       transform: scaleY(1);
     }
-
+    .tools {
+      font-weight: 700;
+      text-align: center;
+      padding-bottom: 10px;
+    }
     .details-links {
       display: flex;
       justify-content: space-between;

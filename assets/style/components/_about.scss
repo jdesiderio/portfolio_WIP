@@ -106,19 +106,19 @@
           z-index: 2;
         }
         .html::before {
-          background: linear-gradient(0deg, #F1B6A7 0%, #F1B6A7 90%, $secundary-color 90%, $secundary-color 100%);
+          background: linear-gradient(0deg, #F1B6A7 0%, #F1B6A7 95%, $secundary-color 95%, $secundary-color 100%);
         }
         .css::before {
-          background: linear-gradient(0deg, #A7B6F1 0%, #A7B6F1 85%, $secundary-color 85%, $secundary-color 100%);
+          background: linear-gradient(0deg, #A7B6F1 0%, #A7B6F1 90%, $secundary-color 90%, $secundary-color 100%);
         }
         .sass::before {
-          background: linear-gradient(0deg, #E4B4CC 0%, #E4B4CC 60%, $secundary-color 60%, $secundary-color 100%);
+          background: linear-gradient(0deg, #E4B4CC 0%, #E4B4CC 75%, $secundary-color 75%, $secundary-color 100%);
         }
         .javascript::before {
-          background: linear-gradient(0deg, #F9D19F 0%, #F9D19F 70%, $secundary-color 70%, $secundary-color 100%);
+          background: linear-gradient(0deg, #F9D19F 0%, #F9D19F 75%, $secundary-color 75%, $secundary-color 100%);
         }
         .react::before {
-          background: linear-gradient(0deg, #9FE3F9 0%, #9FE3F9 50%, $secundary-color 50%, $secundary-color 100%);
+          background: linear-gradient(0deg, #9FE3F9 0%, #9FE3F9 70%, $secundary-color 70%, $secundary-color 100%);
         }
         .seo::before {
           background: linear-gradient(0deg, #E3B5B8 0%, #E3B5B8 90%, $secundary-color 90%, $secundary-color 100%);

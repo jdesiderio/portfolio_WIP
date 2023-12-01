@@ -48,6 +48,7 @@ async function createProjectCards() {
       const details = document.createElement('div');
       details.className = 'details';
       details.innerHTML = `
+        <p class="tools">${project.tools}</p>
         <p>${project.description}</p>
         <div class="details-links">
         <a href="${project.github}" target="_blank"><i class="fa-brands fa-github"></i> Voir le code</a>
@@ -64,7 +65,7 @@ async function createProjectCards() {
         image.classList.toggle('bigger', isExpanded);
         image.classList.toggle('small', !isExpanded);
         details.classList.toggle('show', isExpanded);
-        expandLink.textContent = isExpanded ? 'Réduire' : 'En savoir plus';
+        expandLink.textContent = isExpanded ? 'Réduire' : 'En savoir plus';
       });
 
       card.appendChild(image);

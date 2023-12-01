@@ -388,6 +388,11 @@ footer .icon-contact a:hover {
   display: flex;
   transform: scaleY(1);
 }
+.card .details .tools {
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
 .card .details .details-links {
   display: flex;
   justify-content: space-between;
@@ -642,19 +647,19 @@ footer .icon-contact a:hover {
   z-index: 2;
 }
 .about .about__skills .skillset div .html::before {
-  background: linear-gradient(0deg, #F1B6A7 0%, #F1B6A7 90%, rgb(231, 234, 237) 90%, rgb(231, 234, 237) 100%);
+  background: linear-gradient(0deg, #F1B6A7 0%, #F1B6A7 95%, rgb(231, 234, 237) 95%, rgb(231, 234, 237) 100%);
 }
 .about .about__skills .skillset div .css::before {
-  background: linear-gradient(0deg, #A7B6F1 0%, #A7B6F1 85%, rgb(231, 234, 237) 85%, rgb(231, 234, 237) 100%);
+  background: linear-gradient(0deg, #A7B6F1 0%, #A7B6F1 90%, rgb(231, 234, 237) 90%, rgb(231, 234, 237) 100%);
 }
 .about .about__skills .skillset div .sass::before {
-  background: linear-gradient(0deg, #E4B4CC 0%, #E4B4CC 60%, rgb(231, 234, 237) 60%, rgb(231, 234, 237) 100%);
+  background: linear-gradient(0deg, #E4B4CC 0%, #E4B4CC 75%, rgb(231, 234, 237) 75%, rgb(231, 234, 237) 100%);
 }
 .about .about__skills .skillset div .javascript::before {
-  background: linear-gradient(0deg, #F9D19F 0%, #F9D19F 70%, rgb(231, 234, 237) 70%, rgb(231, 234, 237) 100%);
+  background: linear-gradient(0deg, #F9D19F 0%, #F9D19F 75%, rgb(231, 234, 237) 75%, rgb(231, 234, 237) 100%);
 }
 .about .about__skills .skillset div .react::before {
-  background: linear-gradient(0deg, #9FE3F9 0%, #9FE3F9 50%, rgb(231, 234, 237) 50%, rgb(231, 234, 237) 100%);
+  background: linear-gradient(0deg, #9FE3F9 0%, #9FE3F9 70%, rgb(231, 234, 237) 70%, rgb(231, 234, 237) 100%);
 }
 .about .about__skills .skillset div .seo::before {
   background: linear-gradient(0deg, #E3B5B8 0%, #E3B5B8 90%, rgb(231, 234, 237) 90%, rgb(231, 234, 237) 100%);
