@@ -17,6 +17,10 @@
     background-color: $tertiary-color;
     background: linear-gradient(0deg, $tertiary-color 0%, $secundary-color-darker 98%);
     border-radius: 10px 10px 0 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
     @media screen and (max-width: map-get($breakpoints, 'medium')) {
       grid-area: 2 / 1 / 3 / 2;
       width: 350px;

@@ -11,10 +11,10 @@
   color: $primary-color;
   overflow: hidden;
   @media screen and (max-width: map-get($breakpoints, 'medium')) {
-    max-height: 4500px;
+    max-height: 450px;
   }
   &.expanded {
-    max-height: 1000px;
+    max-height: 1500px;
   }
 
   img {
