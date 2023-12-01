@@ -40,6 +40,8 @@ header {
         @media screen and (max-width: map-get($breakpoints, 'small')) {
           padding-left: 0;
           width: 100%;
+          margin-top: 5px;
+          z-index: 4;
         }
         li {
           flex-grow: 1;
