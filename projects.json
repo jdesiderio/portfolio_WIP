@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imageUrl": "assets/img/image1.jpg",
+    "imageUrl": "assets/img/argentbank.webp",
     "alt": "Page d'accueil du site Argent Bank",
     "title": "Site Argent Bank",
     "subtitle": "Implémentation du front-end d'une application bancaire avec React (Projet OpenClassrooms)",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "imageUrl": "assets/img/kasa.png",
+    "imageUrl": "assets/img/kasa.webp",
     "alt": "Page d'accueil du site de Kasa",
     "title": "Site Kasa",
     "subtitle": "Développement d'un site de location en React (Projet OpenClassrooms)",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "imageUrl": "assets/img/724events.png",
+    "imageUrl": "assets/img/724events.webp",
     "alt": "Page d'accueil du site d'une agence événementielle",
     "title": "Site 724Events",
     "subtitle": "Débugage du site vitrine d'une agence événementielle (Projet OpenClassrooms)",
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "imageUrl": "assets/img/sophiebluel.png",
+    "imageUrl": "assets/img/sophiebluel.webp",
     "alt": "page d'accueil du portfolio Sophie Bluel",
     "title": "Portfolio de Sophie Bluel",
     "subtitle": "Front-end du site portfolio d'une architecte d'intérieur (Projet OpenClassooms)",
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "imageUrl": "assets/img/ninacarducci.png",
+    "imageUrl": "assets/img/ninacarducci.webp",
     "alt": "page d'accueil du portfolio Nina Carducci",
     "title": "Portfolio de Nina Carducci",
     "subtitle": "Performance, accessibilité, SEO (Projet OpenClassooms)",
