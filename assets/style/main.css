@@ -544,7 +544,6 @@ footer .icon-contact a:hover {
   width: 400px;
   height: 400px;
   background-color: rgb(162, 195, 205);
-  background: linear-gradient(0deg, rgb(162, 195, 205) 0%, rgb(225, 230, 235) 98%);
   border-radius: 10px 10px 0 0;
 }
 .about .about__img img {
@@ -553,6 +552,7 @@ footer .icon-contact a:hover {
   border-radius: 10px 10px 0 0;
   -o-object-fit: cover;
      object-fit: cover;
+  opacity: 0.8;
 }
 @media screen and (max-width: 1024px) {
   .about .about__img {
