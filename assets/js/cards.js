@@ -61,10 +61,16 @@ async function createProjectCards() {
 
       const detailsLinks = document.createElement('div');
       detailsLinks.className = 'details-links';
-      detailsLinks.innerHTML = `
-        <a href="${project.github}" target="_blank"><i class="fa-brands fa-github"></i> Voir le code</a>
-        <a href="${project.site}" target="_blank">Voir le site <i class="fa-solid fa-eye"></i></a>
-      `;
+      // Lien vers GitHub 
+      detailsLinks.innerHTML = `<a href="${project.github}" target="_blank"><i class="fa-brands fa-github"></i> Voir le code</a>`;
+      // Condition pour vérifier si project.site n'est pas null
+      if (project.site) {
+        const siteLink = document.createElement('a');
+        siteLink.href = project.site;
+        siteLink.target = '_blank';
+        siteLink.innerHTML = `Voir le site <i class="fa-solid fa-eye"></i>`;
+        detailsLinks.appendChild(siteLink);
+      }
 
       // Assemblage de la section des détails
       details.appendChild(tools);

@@ -15,8 +15,8 @@
     ],
     "tools": "React - Redux - API - JavaScript - HTML5 - Sass",
     "icons": ["fa-react", "fa-square-js", "fa-html5", "fa-sass"],
-    "github": "lien",
-    "site": "lien"
+    "github": "https://github.com/jdesiderio/ArgentBank-website",
+    "site": null
   },
   {
     "id": 2,
@@ -54,7 +54,7 @@
     "tools": "React - JavaScript - HTML5 - Sass",
     "icons": ["fa-react", "fa-square-js"],
     "github": "https://github.com/jdesiderio/724events",
-    "site": null
+    "site": "https://jdesiderio.github.io/724events/"
   },
   {
     "id": 4,
